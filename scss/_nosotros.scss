@@ -16,27 +16,7 @@ $background-color_1: white;
 .contenedor-cards {
 	margin-bottom: 10px;
 }
-.encabezado-uno {
-	background-color: $background-color_1;
-	height: 50px;
-	display: flex;
-	flex-direction: row;
-	justify-content: flex-start;
-	img {
-		margin-left: 16%;
-		margin-top: 4px;
-		width: 10px;
-		height: 10px;
-	}
-	h1 {
-		margin-left: 25px;
-		text-align: left;
-		font-family: $font-family_2;
-		font-weight: 250px;
-		font-size: 18px;
-		text-transform: uppercase;
-	}
-}
+
 .divisor {
 	border-top: solid black 1px;
 	margin-top: 130px;
@@ -120,6 +100,12 @@ $background-color_1: white;
 .card-completa-nosotros {
 	p {
 		font-family: $font-family_2;
+	}
+}
+
+.card-completa-nosotros {
+	h1 {
+		font-family: $font-family_1;
 	}
 }
 
