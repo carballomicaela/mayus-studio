@@ -86,28 +86,6 @@ body {
   margin-bottom: 10px;
 }
 
-.encabezado-uno {
-  background-color: white;
-  height: 50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.encabezado-uno img {
-  margin-left: 16%;
-  margin-top: 4px;
-  width: 10px;
-  height: 10px;
-}
-.encabezado-uno h1 {
-  margin-left: 25px;
-  text-align: left;
-  font-family: "Albert Sans", sans-serif;
-  font-weight: 250px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
 .divisor {
   border-top: solid black 1px;
   margin-top: 130px;
@@ -196,6 +174,10 @@ body {
 
 .card-completa-nosotros p {
   font-family: "Albert Sans", sans-serif;
+}
+
+.card-completa-nosotros h1 {
+  font-family: "Syne", sans-serif;
 }
 
 .seccion-cards-nosotros p {
