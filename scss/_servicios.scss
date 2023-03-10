@@ -1,0 +1,53 @@
+/* servicios */
+
+$color_1: #0353EF;
+$font-family_1: 'Syne', sans-serif;
+$font-family_1: 'Albert Sans', sans-serif;
+
+.hrline {
+	border-left: solid 1px black;
+}
+.horas {
+	color: $color_1;
+	font-family: $font-family_1;
+	font-weight: bold;
+	font-size: 35px;
+}
+.containerservicios {
+	margin-bottom: 100px;
+	margin-top: 50px;
+}
+
+
+.encabezado-servicios-dos {
+	height: 50px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	img {
+		width: 10px;
+		height: 10px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 30px;
+	}
+	h3 {
+		text-align: center;
+		font-family: $font-family_1;
+		font-weight: 250px;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+}
+
+
+.servicios-horas {
+	h2 {
+		font-family: $font-family_1;
+	}
+	p {
+		font-family: $font-family_2;
+	}
+}

@@ -1,0 +1,38 @@
+/*header*/
+
+$color_1: black;
+$color_2: white;
+$background-color_1: white;
+$background-color_2: #0353EF;
+
+.logo {
+	width: 129px;
+	height: 20px;
+}
+.anclas {
+	font-size: 1.3rem;
+	color: $color_1;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+.colorFondo {
+	background-color: $background-color_1;
+}
+.nav-item-buttom {
+	a {
+		background-color: $background-color_2;
+		border-radius: 0px;
+		color: $color_2;
+		&:hover {
+			color: $color_2;
+		}
+	}
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	img {
+		height: 16px;
+		padding-bottom: 3px;
+		padding-left: 10px;
+	}
+}

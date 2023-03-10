@@ -1,0 +1,46 @@
+/* proyectos */
+
+$color_1: white;
+$font-family_1: 'Albert Sans', sans-serif;
+$font-family_2: 'Syne', sans-serif;
+
+.boton-proyectos {
+	button {
+		font-family: $font-family_1;
+		padding: 15px 35px;
+		margin-top: 40px;
+		margin-bottom: 100px;
+		background: #0353EF;
+		color: $color_1;
+		justify-content: center;
+		border: none;
+	}
+}
+.divisor-2 {
+	border-top: solid black 1px;
+	margin-bottom: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	justify-content: center;
+	width: 68%;
+}
+.frase-proyectos {
+	font-family: $font-family_2;
+	font-weight: bold;
+}
+.autor-proyectos {
+	font-family: $font-family_1;
+	font-weight: 400;
+	font-size: 20px;
+	margin-bottom: 150px;
+}
+
+
+.proyectosdiv {
+	img {
+		&:hover {
+			filter: opacity(50%);
+		}
+	}
+}
+

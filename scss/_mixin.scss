@@ -1,0 +1,52 @@
+/* mixin sin parametro */
+
+/* @mixin subtitulos{
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 18px;
+}
+
+.subtitulosestilos{
+    @include subtitulos;
+}*/
+
+
+/* anclas */
+
+@mixin anclas{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.anclasestilos{
+    @include anclas;
+}
+
+/* texto footer */
+
+@mixin textofooter{
+    color: white;
+    font-family: 'Albert Sans', sans-serif;
+}
+
+.textoestilofooter{
+    @include textofooter()
+}
+
+/* mixin con parametro */
+
+@mixin subtitulosconestilo($size, $alineacion) {
+    font-size: $size;
+    text-align: $alineacion;
+    font-family: 'Albert Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.subtitulosmixinuno {
+    @include subtitulosconestilo(18px,right)
+}
+
+.subtitulosmixindos {
+    @include subtitulosconestilo(18px,center)
+}
